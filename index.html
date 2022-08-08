@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TemperatureConvertor</title>
+    <link rel="stylesheet" href="cssMain.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Bangers&family=Beau+Rivage&family=Bebas+Neue&family=Cairo:wght@200&family=Comforter&family=Dancing+Script&family=Fascinate&family=Festive&family=Indie+Flower&family=Island+Moments&family=Kanit:wght@300&family=Lobster&family=Montserrat:wght@300&family=Neonderthaw&family=Orelega+One&family=Pacifico&family=Permanent+Marker&family=Rowdies&family=Rubik+Beastly&family=Rubik+Moonrocks&family=Sacramento&family=Satisfy&family=Signika:wght@300&family=Supermercado+One&family=Syne+Tactile&family=Titan+One&family=Yellowtail&display=swap"
+        rel="stylesheet">
+    <a href="https://www.flaticon.com/free-icons/linkedin" title="linkedin icons"></a>
+</head>
+
+<body>
+    <div class="main-container">
+        <h1 id="website-heading">
+            Temperature Convertor
+            <div id="underline-heading"></div>
+        </h1>
+        <div id="temperature-format">
+            <div id="temp-elements">
+                <div id="selection1">
+                    <h2>from</h2>
+                    <select name="" id="fromTemperature">
+                        <option class="fromOption" id="fromOption1" value="-">Select Your Option</option>
+                        <option class="fromOption" id="fromOption1" value="kelvin">Kelvin</option>
+                        <option class="fromOption" id="fromOption2" value="celsius">Celsius</option>
+                        <option class="fromOption" id="fromOption3" value="fahrenheit">Fahrenheit</option>
+                        <option class="fromOption" id="fromOption4" value="rankine">Rankine</option>
+                    </select>
+                </div>
+                <div id="selection2">
+                    <h2>to</h2>
+                    <select name="" id="toTemperature">
+                        <option class="fromOption" id="fromOption1" value="-">Select Your Option</option>
+                        <option value="kelvin">Kelvin</option>
+                        <option value="celsius">Celsius</option>
+                        <option value="fahrenheit">Fahrenheit</option>
+                        <option value="rankine">Rankine</option>
+                    </select>
+                </div>
+                <div id="convertValue">
+                    <input type="number" id="putValue">
+                    <input type="submit" id="submitValue">
+                </div>
+                <div id="showResult">
+                    <h2 id="result"></h2>
+                </div>
+                <img src="icons/abstract-shape.png" alt="" class="designImg" id="designImg1">
+                <img src="icons/arrow.png" alt="" class="designImg" id="designImg2">
+                <img src="icons/circle.png" alt="" class="designImg" id="designImg3">
+                <img src="icons/fish.png" alt="" class="designImg" id="designImg4">
+                <img src="icons/hexagon.png" alt="" class="designImg" id="designImg5">
+                <img src="icons/right-arrow.png" alt="" class="designImg" id="designImg6">
+                <img src="icons/round.png" alt="" class="designImg" id="designImg7">
+                <img src="icons/round.png" alt="" class="designImg" id="designImg8">
+                <img src="icons/abstract-shape.png" alt="" class="designImg" id="designImg9">
+            </div>
+        </div>
+        <div class="ghostBg" id="bg1"></div>
+        <div class="ghostBg" id="bg2"></div>
+        <div class="ghostBg" id="bg3"></div>
+        <div class="ghostBg" id="bg4"></div>
+        <div class="ghostBg" id="bg5"></div>
+        <div class="ghostBg" id="bg6"></div>
+    </div>
+    <div class="footer">
+        <h3>contact : tusharkumar2002working@gmail.com</h3>
+        <h3>INSTAGRAM : &nbsp; <a href=""><img src="icons/instagram.png" alt=""></a></h3>
+        <h3>LINKED-IN : &nbsp;<a href=""><img src="icons/linkedin.png" alt=""></a></h3>
+    </div>
+
+    <!-- Script -->
+    <script src="jsMain.js"></script>
+</body>
+
+</html>
